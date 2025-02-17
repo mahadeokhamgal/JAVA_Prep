@@ -1,0 +1,13 @@
+Theoretical Questions:
+    1. What is the difference between == and .equals() in Java? - EqualsDemo.java
+    2. Explain the difference between checked and unchecked exceptions. Provide examples.
+    3. How does Java achieve platform independence?
+    4. What is the difference between String, StringBuilder, and StringBuffer?
+    5. How does garbage collection work in Java, and what are the different types of garbage collectors?
+
+Logical/Coding Questions:
+    1. Write a program to check if a number is a palindrome or not.
+    2. Given an array of integers, find the second largest number without sorting.
+    3. Write a Java program to reverse a string without using in-built functions.
+    4. How do you detect and remove a loop in a linked list in Java?
+    5. Write a Java program to find the first non-repeating character in a string.
