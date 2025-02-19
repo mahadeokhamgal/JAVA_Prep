@@ -1,4 +1,5 @@
-Theoretical Questions:
+Day-1
+Java Core:
     1. What is the difference between == and .equals() in Java? - EqualsDemo.java
     2. Explain the difference between checked and unchecked exceptions. Provide examples.
     3. How does Java achieve platform independence?
@@ -11,3 +12,30 @@ Logical/Coding Questions:
     3. Write a Java program to reverse a string without using in-built functions.
     4. How do you detect and remove a loop in a linked list in Java?
     5. Write a Java program to find the first non-repeating character in a string.
+
+Day-2
+Java core.
+What is the difference between ArrayList and LinkedList in Java?
+Explain the concept of autoboxing and unboxing in Java.
+What is the role of the transient keyword in Java?
+What is the volatile keyword in Java, and how is it used?
+What is the difference between final, finally, and finalize in Java?
+Explain the difference between super and this in Java.
+What is the purpose of the default keyword in interfaces (introduced in Java 8)?\
+
+Logical/Coding Questions – 6 Questions
+Write a program to find all prime numbers in a given range.
+Write a program to find the Fibonacci series up to n terms using recursion.
+Given an array of integers, write a program to move all zeros to the end while maintaining the relative order of non-zero elements.
+Write a program to check if two strings are anagrams of each other.
+Write a program to find the sum of the digits of a number using recursion.
+Find the largest sum of a contiguous subarray in an array of integers.
+
+Java OOP Questions – 7 Questions
+What is the difference between method overloading and method overriding in Java?
+What are abstract classes and interfaces in Java? How are they different from each other?
+Explain the concept of inheritance in Java. How does it work with access modifiers?
+What are the key differences between composition and inheritance in Java?
+What is the purpose of the static keyword in Java? How does it work with methods and variables?
+Explain the concept of polymorphism in Java. Provide examples of both compile-time and runtime polymorphism.
+What is encapsulation in Java, and how can it be achieved?
