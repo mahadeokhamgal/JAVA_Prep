@@ -39,3 +39,92 @@ What are the key differences between composition and inheritance in Java?
 What is the purpose of the static keyword in Java? How does it work with methods and variables?
 Explain the concept of polymorphism in Java. Provide examples of both compile-time and runtime polymorphism.
 What is encapsulation in Java, and how can it be achieved?
+
+day-3
+Spring boot.
+** Core Spring Boot Concepts: **
+    What is Spring Boot and how does it differ from Spring Framework?
+    
+    What is the advantage of using Spring Boot over traditional Spring?
+    
+    What are some of the key features of Spring Boot?
+    
+    What is the purpose of the @SpringBootApplication annotation?
+    
+    How does Spring Boot auto-configuration work?
+    
+    How can you disable specific auto-configurations in Spring Boot?
+    
+    What is the Spring Boot starter project and how is it used?
+    
+    What is Spring Boot's embedded web server, and which servers can be embedded?
+    
+    What is the role of the application.properties or application.yml file in Spring Boot?
+    
+    How do you create a custom Spring Boot starter?
+
+**  Spring Boot Configuration: **
+    What are profiles in Spring Boot and how are they used?
+
+    How do you externalize configuration in Spring Boot?
+
+    What is the difference between @ConfigurationProperties and @Value annotation in Spring Boot?
+
+    How do you enable and configure a datasource in Spring Boot?
+
+    What is the purpose of @EnableAutoConfiguration in Spring Boot?
+
+**  Spring Boot and Databases: **
+    How do you configure a Spring Boot application to connect to a database (e.g., MySQL, PostgreSQL)?
+    
+    What is Spring Data JPA, and how is it used in Spring Boot?
+    
+    How do you configure pagination and sorting with Spring Data JPA?
+    
+    What are @Entity, @Repository, and @Service annotations in Spring Boot and how do they work together?
+    
+    How can you handle database migrations in a Spring Boot application (e.g., using Flyway or Liquibase)?
+
+** Spring Boot Security: ** 
+    How do you secure a Spring Boot application using Spring Security?
+    
+    What is the purpose of the @EnableWebSecurity annotation in Spring Boot?
+    
+    How do you implement JWT (JSON Web Token) authentication in Spring Boot?
+    
+    What is the difference between authentication and authorization in Spring Security?
+    
+    How can you configure role-based access control (RBAC) in Spring Security?
+
+**  Spring Boot REST APIs: ** 
+    How do you create a RESTful web service using Spring Boot?
+    
+    What is the purpose of @RestController in Spring Boot?
+    
+    What is the difference between @Controller and @RestController?
+    
+    How can you handle exceptions globally in Spring Boot REST APIs?
+    
+    How do you configure JSON and XML message converters in Spring Boot?
+
+**  Spring Boot Testing: **
+    How do you write unit tests for Spring Boot applications?
+
+    What is the purpose of @SpringBootTest annotation?
+
+    How do you mock dependencies in Spring Boot tests?
+
+    What is the role of @MockBean in testing a Spring Boot application?
+
+    How do you test a Spring Boot REST controller using @WebMvcTest?
+
+**  Spring Boot Advanced Topics: **
+    What is Spring Boot Actuator, and how can it be used to monitor applications?
+
+    How do you customize Spring Boot Actuator endpoints?
+
+    How do you create and use custom Spring Boot health indicators?
+
+    How can you integrate Spring Boot with message brokers like RabbitMQ or Kafka?
+
+    How do you configure Spring Boot for distributed tracing and logging (e.g., using Zipkin or ELK)?
