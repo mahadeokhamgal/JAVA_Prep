@@ -73,6 +73,11 @@ public class LogicalQuestions {
         return head;
     }
     
+    /**
+     * Sieve of Eratosthenes
+     * @param num
+     * @return
+     */
     public ArrayList<Integer> getPrimes(int num) {
         boolean[] primes = new boolean[num];
         ArrayList<Integer> ans = new ArrayList<>();
