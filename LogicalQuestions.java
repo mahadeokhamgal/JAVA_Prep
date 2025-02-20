@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class LogicalQuestions {
@@ -71,29 +73,70 @@ public class LogicalQuestions {
         return head;
     }
     
+    public ArrayList<Integer> getPrimes(int num) {
+        boolean[] primes = new boolean[num];
+        ArrayList<Integer> ans = new ArrayList<>();
+        for(int i = 2; i < Math.sqrt(num); i++){
+            int multiplier = 2;
+            while(multiplier*i < num && primes[multiplier*i] == false){
+                primes[multiplier*i] = true;
+                multiplier += 1;
+            }
+        }
+        for (int i = 2; i < primes.length; i++) {
+            if(primes[i] == false){
+                ans.add(i);
+            }
+        }
+        // System.out.println(Arrays.toString(primes) + ans);
+        return ans;
+    }
+    public static ArrayList<Integer> fibo(ArrayList<Integer> prev, int limit) {
+        int lastSec = prev.get(prev.size()-2);
+        if(prev.getLast() + lastSec > limit){
+            return prev;
+        }
+        prev.add(prev.getLast() + lastSec);
+        return LogicalQuestions.fibo(prev, limit);
+    }
+    public ArrayList<Integer> fibonacci(int num){
+        ArrayList<Integer> ans = new ArrayList<>();
+        ans.add(1);
+        ans.add(1);
+
+        return fibo(ans, num);
+    }
     public static void main(String[] args) {
         LogicalQuestions l = new LogicalQuestions();
+        // Q1
         System.out.println(l.isPalindrome(1234321));
         System.out.println(l.isPalindrome(123432));
-
+        // Q2
         System.out.println(l.getSecondLargest(new int[] { 1, 2, 3, 4, 8, 5, 6, 8, 7 }));
         System.out.println(l.getSecondLargest(new int[] { 1, 2, 3, 4, 5, 6, 8, 7 }));
-
+        //Q3
         System.out.println(l.reveString("abcdefgh"));
-
+        //Q4
         System.out.println(l.firstNonRepeatingChar("qwrteiiyyhq"));
-
+        //Q5
         Node head = new Node(0);
+        Node tail0 = head;
         head.appendLast(1);
         head.appendLast(2);
-        Node tail2 = head.getTail();
+        // Node tail2 = head.getTail();
         head.appendLast(3);
         head.appendLast(4);
         head.appendLast(5);
         Node tail5 = head.getTail();
-        tail5.next = tail2;
+        tail5.next = tail0;
         head.printList();
         head.removeLoop();
         head.printList();
+
+        //Q6
+        System.out.println(l.getPrimes(19));
+
+        //Q7
+        System.out.println(l.fibonacci(55));
     }
 }

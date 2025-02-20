@@ -37,12 +37,18 @@ class Node {
     public Node removeLoop() {
         Node slow = this;
         Node fast = this;
+        Node prev;
         do {
+            prev = slow;
             slow = slow.next;
             fast = fast.next.next;
         } while (fast != slow);
 
         slow = this;
+        if(slow == fast){
+            prev.next = null;
+            return this;
+        }
         while (slow.next != fast.next) {
             slow = slow.next;
             fast = fast.next;
@@ -54,7 +60,7 @@ class Node {
     public void printList(){
         Node temp = this;
         HashSet <Node> seen = new HashSet<>();
-        while(temp != null && temp.next != null){
+        while(temp != null){
             if(seen.contains(temp)){
                 System.out.println("loop found exiting");
                 break;
