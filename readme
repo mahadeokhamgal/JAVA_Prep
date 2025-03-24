@@ -57,7 +57,7 @@ Spring boot.
     
     What is the Spring Boot starter project and how is it used?
     
-    What is Spring Boot's embedded web server, and which servers can be embedded?
+    What is Spring Boot''s embedded web server, and which servers can be embedded?
     
     What is the role of the application.properties or application.yml file in Spring Boot?
     
@@ -128,3 +128,58 @@ Spring boot.
     How can you integrate Spring Boot with message brokers like RabbitMQ or Kafka?
 
     How do you configure Spring Boot for distributed tracing and logging (e.g., using Zipkin or ELK)?
+
+25 Interview Questions Based on the JD
+** Java and Technical Knowledge (15 Questions) **
+
+What features of Java 8 or later have you used in your previous projects? Can you provide examples?
+How do you handle version control using Git or other version management tools? Can you explain your process?
+Can you explain the difference between ArrayList and LinkedList in Java? When would you choose one over the other?
+How would you go about debugging a Java application that is throwing memory leaks or performance issues?
+How do you implement error handling in a Java application? What are the common practices you follow for exception handling?
+Explain the concept of functional interfaces and lambda expressions in Java 8.
+What is the significance of streams in Java 8, and how do you utilize them to write efficient code?
+How do you use SQL with Java applications? Can you describe how you interact with databases like Oracle or MongoDB from Java?
+Explain how you would implement a multi-threaded Java application. What tools do you use to manage concurrency in Java?
+How do you ensure that your Java code is testable? Can you explain your approach to unit testing?
+What are some best practices when developing enterprise applications in Java, especially regarding scalability and performance?
+How do you handle versioning in Java APIs when there are breaking changes or updates in the application?
+Can you describe a situation where you used event-driven architecture in your Java projects? How did it benefit the system?
+Have you worked with CI/CD pipelines? Can you walk us through the steps of deploying a Java application using CI/CD?
+Can you discuss your experience with Oracle databases? How do you interact with Oracle databases in a Java application?
+
+** Spring - **
+What is Dependency Injection in Spring? Can you explain how you’ve used it in your projects?
+
+	This will test your understanding of one of the core concepts of Spring — Dependency Injection (DI) and how it helps in decoupling components.
+	Can you explain the difference between @Component, @Service, @Repository, and @Controller annotations in Spring?
+
+	This question will assess your knowledge of Spring annotations and their roles in creating different beans.
+
+What is Spring Boot, and how is it different from traditional Spring Framework applications?
+
+	This checks your understanding of Spring Boot, its purpose, and how it simplifies the development and deployment of Spring applications.
+	How would you handle transactions in a Spring-based application? Can you explain @Transactional and its use cases?
+
+	This question tests your understanding of managing transactions in Spring and how Spring handles transaction management declaratively.
+	
+Have you worked with Spring Security? Can you explain how you would implement authentication and authorization in a Spring application?
+
+	This assesses your familiarity with securing web applications using Spring Security and implementing user authentication/authorization.
+
+** Behavioral and Collaborative Skills (5 Questions) **
+
+Can you give an example of a time you worked in an agile environment? How did you handle the iterative development process?
+How do you manage your time when working with teams distributed across different time zones?
+Describe a time when you faced a challenging problem in a project. How did you approach solving it?
+Have you worked in a collaborative environment? How do you ensure smooth communication when working with developers in multiple locations?
+How do you handle situations where the requirements are unclear or constantly changing? How do you adapt to those changes?
+Testing and Quality (3 Questions)
+
+What types of testing have you performed in your Java applications? Can you explain your experience with unit and integration testing?
+How do you ensure that your code meets the required performance benchmarks? Do you perform any performance testing or optimization?
+Can you explain your approach to writing clean, maintainable, and efficient Java code? How do you ensure it adheres to best practices?
+Problem-Solving and Architecture (2 Questions)
+
+Can you describe a situation where you had to troubleshoot a production issue? How did you investigate and resolve it?
+How do you design reusable frameworks in Java? Can you give an example of a framework you developed and how it helped improve productivity?
